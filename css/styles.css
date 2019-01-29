@@ -1,0 +1,187 @@
+body {
+	background-image: url("/assets/finfin.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	color: white;
+
+}
+
+#topMenu {
+	text-align: center;
+	transition: .3s linear;
+  background-image: url();
+	color: white;
+}
+
+#guide{
+	list-style-type: none;
+	display: inline-block;
+	font-family: 'Staatliches', cursive;
+	color:white;
+	font-size: 50px; 
+	padding: 20px 30px;
+    text-shadow:
+		-1px -1px 0 black,
+		1px -1px 0 black,
+		-1px 1px 0 black,
+		1px 1px 0 black;
+}
+
+.sectionLine {
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	font-size: 60px;
+	color: whitesmoke;
+	line-height: 95%;
+}
+
+.sectionTitle {
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	font-size: 60px;
+	color: whitesmoke;
+	line-height: 95%;
+}
+
+#merch{
+    font-family: 'Staatliches', cursive;
+    color: white;
+    font-size: 40px; 
+}
+
+#pizzaName{
+    font-size: 30px; 
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+.description{
+  font-size: 20px; 
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.price{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px; 
+}
+
+#menu{
+	width:60%;
+    float: right;
+}
+
+.content {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#special{
+  font-size: 50px;
+}
+
+.guide{
+	list-style-type: none;
+	display: inline-block;
+	color: white;
+	font-size: 28px; 
+	padding: 10px 30px;
+	border: 1px solid white;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+
+  .mySlides {
+    display: none;
+  }
+  
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+ 
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
